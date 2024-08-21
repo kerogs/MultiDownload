@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2029;
+  color: #eef4fc;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ccenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+}
+.ccenter h1 {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: #8C97C4;
+  font-size: 2.3em;
+}
+.ccenter form label.group {
+  display: flex;
+  align-items: center;
+  background-color: #393B44;
+}
+.ccenter form label.group input, .ccenter form label.group i {
+  font-size: 20px;
+  padding: 6px 0px;
+}
+.ccenter form label.group i {
+  padding: 0px 14px;
+}
+.ccenter form label.group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #eef4fc;
+}
+.ccenter form button[type=submit] {
+  margin: 10px 0;
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #53555E;
+  color: #eef4fc;
+  font-size: 20px;
+  cursor: not-allowed;
+}
+.ccenter form button[type=submit].ok {
+  background-color: #2A398C;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
